@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Home Page</title>
+    <style>
+    body {background-color: whitesmoke;}
+    h1   {color: blue; font-family: Verdana; font-size: 300%}
+    p1    {color: black;font-family: Verdana; font-size: 300%; text-shadow: red; margin: auto;
+  width: 50%;}
+
+
+    .title {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+    .subtext{
+     width: 30%;
+  }
+</style>
+
+</head>
+
+
+<form method="post">
+<body>
+<div class="title"  >
+    <p1> Welcome . !!!!</p1>
+</div>
+
+<div>
+    <p1> Welcome!! this is a calculator. Please input your current information , you will receive fitness stats and other recomendations<br><br></p1>
+
+</div>
+
+<div class="subtext">
+
+    <label>Name  &nbsp;&nbsp;&nbsp;</label><input type="text", name="Textbox", value=""/><br>
+    <label>Age     &nbsp;&nbsp;&nbsp;</label><input type="number" name="age"/><br>
+    <label>Gender &nbsp;&nbsp;&nbsp;</label><input name="Gender" type="radio" value="male"/> &nbsp;<input name="Gender" type="radio" value="female"/><br>
+    <label> Current Weight   &nbsp;&nbsp;&nbsp;</label> <input type="number" min="100" max="400" name="weight">
+
+    <label>Exercise Scale&nbsp;&nbsp;&nbsp;</label><input type="range" name="exercise consistency" min="0" max="10" step="0.1"/><br>
+
+    <label>Desired Workout Intensity</label>
+    <select name="Workout_intensity">
+        <option value="light">Light</option>
+        <option value="moderate">Moderate</option>
+        <option value="heavy">Heavy</option>
+        <option value="intense">Intense</option>
+    </select>
+
+
+    <label>Comment &nbsp;&nbsp;&nbsp;</label><textarea rows="10" cols="30" name="comment"></textarea><br></textarea>
+
+
+
+    <input type="submit"> &nbsp;&nbsp;<input type="reset"> &nbsp;&nbsp;
+
+
+</div>
+</body>
+</form>
+</html>
