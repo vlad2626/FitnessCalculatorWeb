@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PracticeDjango.iml" filepath="$PROJECT_DIR$/.idea/PracticeDjango.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FitnessCalculatorWeb.iml" filepath="$PROJECT_DIR$/.idea/FitnessCalculatorWeb.iml" />
     </modules>
   </component>
 </project>

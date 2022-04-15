@@ -12,3 +12,7 @@ def home_view(requests,*args, **kwargs):
     }
     return render(requests, "home.html", variables)
 
+
+def contact_us(requests,*args, **kwargs):
+    return render(requests, "contact_us.html", {})
+
